@@ -3,33 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/padrão.css">
         <link rel="stylesheet" href="css/stylelogin.css">
         <title>Cadastro</title>
     </head>
-    <body>
-        <section>
+    <body id="body">
+        <input id="botao" type="button" value="Mode" onclick="mode()">
+        <section id="section">
             <div class="form-box">
                 <div class="form-value">
                     <form action="">
-                        <h2>Login</h2>
+                        <h2 id="nome">Login</h2>
                         <div class="inputbox">
-                            <ion-icon name="mail-outline"></ion-icon>
                             <input type="email" required>
-                            <label for="">Email</label>
+                            <label id="label" for="">Email</label>
                         </div>
                         <div class="inputbox">
-                            <ion-icon name="lock-closed-outline"></ion-icon>
                             <input type="password" required>
-                            <label for="">Senha</label>
+                            <label id="label" for="">Senha</label>
                         </div>
                         <div class="forget">
-                            <label for=""><input type="checkbox"> Lembre de mim <a href="#">Esqueci minha senha</a></label>
+                            <label id="label" for=""><input id="input" type="checkbox"> Lembre de mim <a id="link" href="#">Esqueci minha senha</a></label>
                         </div>
-                        <div>
-                            <a href="inicio.html"><button>Log in</button></a>
+                        <div class="login">
+                            <a id="linklogin" href="inicio.html">Log in</a>
                         </div>
                         <div class="register">
-                            <p>Não tenho uma conta <a href="#">Registrar-se</a></p>
+                            <p id="p">Não tenho uma conta <a id="link" href="#">Registrar-se</a></p>
                         </div>
                     </form>
                 </div>
@@ -37,5 +37,7 @@
         </section>
 
         
+
+        <script src="js/scriptlogin.js"></script>
     </body>
 </html>

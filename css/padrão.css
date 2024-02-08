@@ -2,3 +2,15 @@ body{
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.navedit{
+    color: white;
+}
+
+.navedit:hover{
+    color: rgb(170, 170, 170);
+}
+
+.ativo{
+    color: rgb(170, 170, 170);
+}
